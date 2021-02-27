@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">sri-test</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">611.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">sri-test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">myPack.Srivalli</td><td><a href="#m1"><b>addEmp</b>  </a></td><td class="numi">1</td><td>1614394227116</td><td class="numi">604373</td></tr>
+<tr><th colspan="4">sri-test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">myPack.Srivalli</td><td><a href="#m2"><b>addLocation</b>  </a></td><td class="numi">1</td><td>1614394831507</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m3"><b>deleteEmp</b>  </a></td><td class="numi">1</td><td>1614394831508</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m4"><b>editEmp</b>  </a></td><td class="numi">1</td><td>1614394831509</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m5"><b>editLocation</b>  </a></td><td class="numi">1</td><td>1614394831510</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyLogin</b>  </a></td><td class="numi">1</td><td>1614394831511</td><td class="numi">7123</td></tr>
+</table>
+<h1>sri-test</h1>
+<h2 id="m1">myPack.Srivalli:addEmp</h2>
+<div style="padding-left:3em">
+<p>session not created
+from timeout: Timed out receiving message from renderer: 600.000
+  (Session info: chrome=88.0.4324.190)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAHESH&apos;, ip: &apos;192.168.1.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	GetHandleVerifier [0x0056B963+483]
+	GetHandleVerifier [0x0056B941+449]
+	GetHandleVerifier [0x00913308+3832712]
+	GetHandleVerifier [0x0090778C+3784716]
+	GetHandleVerifier [0x00906A47+3781319]
+	GetHandleVerifier [0x00906E36+3782326]
+	GetHandleVerifier [0x00906765+3780581]
+	GetHandleVerifier [0x0090C420+3804320]
+	GetHandleVerifier [0x00906721+3780513]
+	GetHandleVerifier [0x009074B2+3783986]
+	GetHandleVerifier [0x00906A47+3781319]
+	GetHandleVerifier [0x00906E36+3782326]
+	GetHandleVerifier [0x00906765+3780581]
+	GetHandleVerifier [0x0090B655+3800789]
+	GetHandleVerifier [0x00906721+3780513]
+	GetHandleVerifier [0x009074B2+3783986]
+	GetHandleVerifier [0x00906A47+3781319]
+	GetHandleVerifier [0x00906E36+3782326]
+	GetHandleVerifier [0x00906765+3780581]
+	GetHandleVerifier [0x00902F46+3766214]
+	GetHandleVerifier [0x00906721+3780513]
+	GetHandleVerifier [0x00906543+3780035]
+	GetHandleVerifier [0x00906337+3779511]
+	GetHandleVerifier [0x00914540+3837376]
+	GetHandleVerifier [0x0094F4BC+4078908]
+	GetHandleVerifier [0x0094E56C+4074988]
+	GetHandleVerifier [0x0094B2EB+4062059]
+	GetHandleVerifier [0x0092ED14+3945876]
+	GetHandleVerifier [0x0092FBCE+3949646]
+	GetHandleVerifier [0x0092FB59+3949529]
+	Ordinal0 [0x0052B5CC+46540]
+	Ordinal0 [0x00529F53+40787]
+	Ordinal0 [0x00529B12+39698]
+	GetHandleVerifier [0x00831468+2907368]
+	GetHandleVerifier [0x006771EE+1096302]
+	GetHandleVerifier [0x00633E8D+821005]
+	GetHandleVerifier [0x0063396B+819691]
+	GetHandleVerifier [0x00633881+819457]
+	GetHandleVerifier [0x0065F463+998627]
+	BaseThreadInitThunk [0x76E1FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x779C76B4+228]
+	RtlGetAppContainerNamedObjectPath [0x779C7684+180]
+</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+<br/>at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+<br/>at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+<br/>at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+<br/>at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+<br/>at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+<br/>at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+<br/>at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+<br/>at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+<br/>at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+<br/>at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+<br/>at myPack.Srivalli.addEmp(Srivalli.java:33)
+<br/>28 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">myPack.Srivalli:editLocation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">myPack.Srivalli:verifyLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">myPack.Srivalli:editEmp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">myPack.Srivalli:addLocation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">myPack.Srivalli:deleteEmp</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
